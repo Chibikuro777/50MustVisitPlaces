@@ -122,3 +122,25 @@ var galleryTop = new Swiper('.gallery-top', {
         swiper: galleryThumbs,
     },
 });
+
+var galleryThumbs1 = new Swiper('.gallery-thumbs1', {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    loop: true,
+    freeMode: true,
+    loopedSlides: 5, //looped slides should be the same
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+});
+var galleryTop1 = new Swiper('.gallery-top1', {
+    spaceBetween: 10,
+    loop: true,
+    loopedSlides: 5, //looped slides should be the same
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    thumbs: {
+        swiper: galleryThumbs,
+    },
+});

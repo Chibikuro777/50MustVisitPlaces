@@ -26,39 +26,6 @@ header{
     flex-direction: column;
 }
 
-/* .modal-wrapper{
-    min-height: 400px;
-
-} */
-
-/* .modal-bg{
-    display: none;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-}
-
-.modal-content{
-    display: none;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    width: 500px;
-    height: 300px;
-    margin-top: -150px;
-    margin-left: -250px;
-    background-color: #fff;
-    z-index: 2;
-}
-
-.modal-open{
-    overflow: hidden;
-} */
-
 #nav-styling{
     display: flex;
     justify-content: flex-end;
@@ -317,8 +284,8 @@ h1{
     font-size: 30px;
     font-weight: bold;
   }
-  
-  .gallery-top {
+
+  .gallery-top, .gallery-top1{
     width: 100%;
   }
 
@@ -327,7 +294,7 @@ h1{
     color: white;
   }
 
-  .gallery-thumbs {
+  .gallery-thumbs, .gallery-thumbs1{
     height: 100px;
     box-sizing: border-box;
     padding: 10px 0;
@@ -342,6 +309,7 @@ h1{
     height: 100%;
     opacity: 0.4;
   }
+
   .gallery-thumbs .swiper-slide-thumb-active {
     opacity: 1;
   }
