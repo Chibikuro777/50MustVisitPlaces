@@ -105,7 +105,7 @@ $(function () {
     }
 });
 
-// thumbs galleryのJS
+// thumbs galleryのJS(Africa)
 var galleryThumbs = new Swiper('.gallery-thumbs', {
     spaceBetween: 10,
     slidesPerView: 4,
@@ -128,6 +128,7 @@ var galleryTop = new Swiper('.gallery-top', {
     },
 });
 
+// thumbs galleryのJS(Asia)
 var galleryThumbs1 = new Swiper('.gallery-thumbs1', {
     spaceBetween: 10,
     slidesPerView: 4,
@@ -149,4 +150,98 @@ var galleryTop1 = new Swiper('.gallery-top1', {
         swiper: galleryThumbs,
     },
 });
+
+// thumbs galleryのJS(Europe)
+var galleryThumbs2 = new Swiper('.gallery-thumbs2', {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    loop: true,
+    freeMode: true,
+    loopedSlides: 5, //looped slides should be the same
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+});
+var galleryTop2 = new Swiper('.gallery-top2', {
+    spaceBetween: 10,
+    loop: true,
+    loopedSlides: 5, //looped slides should be the same
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    thumbs: {
+        swiper: galleryThumbs,
+    },
+});
+
+// thumbs galleryのJS(Oceania)
+var galleryThumbs3 = new Swiper('.gallery-thumbs3', {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    loop: true,
+    freeMode: true,
+    loopedSlides: 5, //looped slides should be the same
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+});
+var galleryTop3 = new Swiper('.gallery-top3', {
+    spaceBetween: 10,
+    loop: true,
+    loopedSlides: 5, //looped slides should be the same
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    thumbs: {
+        swiper: galleryThumbs,
+    },
+});
+
+// thumbs galleryのJS(South America)
+var galleryThumbs4 = new Swiper('.gallery-thumbs4', {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    loop: true,
+    freeMode: true,
+    loopedSlides: 5, //looped slides should be the same
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+});
+var galleryTop4 = new Swiper('.gallery-top4', {
+    spaceBetween: 10,
+    loop: true,
+    loopedSlides: 5, //looped slides should be the same
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    thumbs: {
+        swiper: galleryThumbs,
+    },
+});
+
+// thumbs galleryのJS(USA)
+var galleryThumbs5 = new Swiper('.gallery-thumbs5', {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    loop: true,
+    freeMode: true,
+    loopedSlides: 5, //looped slides should be the same
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+});
+var galleryTop5 = new Swiper('.gallery-top5', {
+    spaceBetween: 10,
+    loop: true,
+    loopedSlides: 5, //looped slides should be the same
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    thumbs: {
+        swiper: galleryThumbs,
+    },
+});
+
+
 
