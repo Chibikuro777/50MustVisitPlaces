@@ -51,6 +51,11 @@ $(function () {
         $(".js-toggle").on("mouseover", function () {
             $(this).siblings("dd").slideToggle();
         });
+
+        // scrollTopを追加する
+        $(".scroll-top").on("click", function(){
+            $("html, body").stop().animate({scrollTop: 0}, 1000);
+        });
     });
 
     // 地球儀を追加して回転させる
@@ -144,3 +149,4 @@ var galleryTop1 = new Swiper('.gallery-top1', {
         swiper: galleryThumbs,
     },
 });
+

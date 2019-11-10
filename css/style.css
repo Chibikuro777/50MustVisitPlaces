@@ -12,6 +12,9 @@ iframe{
 .container{
     width: 100%;
     margin: 0 auto;
+    position: relative;
+    bottom: 0;
+    right: 0;
 }
 
 header{
@@ -58,11 +61,6 @@ canvas{
     height: 100%;
 }
 
-/* #blog img{
-    width: 100%;
-    height: auto;
-} */
-
 .img-blur{
     filter: blur(15px);
     animation: imageBlur 2s both;
@@ -72,28 +70,6 @@ canvas{
     100%{
         filter: blur(0);
     }
-}
-
-.scroll-up{
-    border: 2px solid blue;
-    border-radius: 5px;
-    padding: 5px;
-    width: 30px;
-    height: 20px;
-    background-color: grey;
-    position: absolute;
-    bottom: 0;
-    right: 0px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.scroll-up p{
-    background-color: grey;
-    font-size: 15px;
-
 }
 
 #main-img{
@@ -313,3 +289,22 @@ h1{
   .gallery-thumbs .swiper-slide-thumb-active {
     opacity: 1;
   }
+
+  .scroll-top p{
+      font-size: 16px;
+      padding: 10px;
+      background-color: grey;
+    }
+
+  .scroll-top{
+      display: flex;
+      align-content: center;
+      position: fixed;
+      top: 500px;
+      right: 30px;
+      background-color: grey;
+      border: 1px solid grey;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
