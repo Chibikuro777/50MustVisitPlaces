@@ -6,7 +6,7 @@
 
 iframe{
     width: 50%;
-    height: 200px;
+    height: 250px;
 }
 
 .container{
@@ -118,7 +118,7 @@ canvas{
 }
 
 .img-column img{
-    height: 150px;
+    height: 200px;
     margin-bottom: 30px;
 }
 
@@ -149,6 +149,7 @@ canvas{
     display: flex;
     justify-content: space-evenly;
     margin: 20px 0;
+    font-size: 20px;
 }
 
 .input-button{
@@ -192,12 +193,12 @@ input:hover{
 
 input, textarea{
     border-radius: 5px;
-    width: 500px;
+    width: 700px;
     text-align: center;
 }
 
 input{
-    height: 25px;
+    height: 35px;
 }
 
 .country{
@@ -215,6 +216,7 @@ footer{
 
 #footer-p{
     color: white;
+    font-size: 20px;
 }
 
 h1{
@@ -226,7 +228,7 @@ h1{
 #sub-title{
     color: white;
     /* margin-left: 50px; */
-    font-size: 40px;
+    font-size: 50px;
 }
 
 /* thumbs gallery CSS*/
@@ -288,8 +290,8 @@ h1{
   }
 
   .scroll, .scroll1, .scroll2, .scroll3, .scroll4{
-      font-size: 12px;
-      padding: 5px;
+      font-size: 17px;
+      padding: 7px;
       background-color: grey;
     }
 

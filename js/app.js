@@ -71,19 +71,19 @@ $(function () {
         // ページ内のY座標を取得
         // let destinations = $("#destinations").offset();
         $(".scroll1").on("click", function () {
-            $("html, body").stop().animate({ scrollTop: 697.6000061035156 }, 500);
+            $("html, body").stop().animate({ scrollTop: 842 }, 500);
         });
 
         $(".scroll2").on("click", function(){
-            $("html, body").stop().animate({scrollTop: 1367.2000122070312}, 500);
+            $("html, body").stop().animate({scrollTop: 1662}, 500);
         });
 
         $(".scroll3").on("click", function(){
-            $("html, body").stop().animate({scrollTop: 8284.800048828125}, 1000);
+            $("html, body").stop().animate({scrollTop: 8602}, 1000);
         });
 
         $(".scroll4").on("click", function(){
-            $("html, body").stop().animate({scrollTop: 8633.400195121765}, 1000);
+            $("html, body").stop().animate({scrollTop: 9011}, 1000);
         });
     });
 
