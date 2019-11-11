@@ -36,6 +36,17 @@ $(function () {
         $(".modal-content").fadeIn("slow");
     });
 
+    // mouseover時スタイル変更
+    $(".input input").on("mouseover", function(){
+        $(this).css("background-color", "gold");
+    });
+
+    // mouseleave時元に戻す
+    $(".input input").on("mouseleave", function(){
+        $(this).css("background-color", "blue");
+    });
+    
+
     // 画像blurのアニメーションをつける
     $(window).scroll(function () {
         let windowh = $(window).height(),

@@ -172,6 +172,10 @@ canvas{
     right: 0;
 }
 
+input:hover{
+    cursor: pointer;
+}
+
 .textarea, .p{
     display: flex;
     flex-direction: column;
