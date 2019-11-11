@@ -19,9 +19,9 @@ $(function () {
     // destinationsの国をmouseoverしたらグレーアウトする
     $(".grey-out").on("mouseover", function () {
         $(this).css("opacity", "0.3");
-        // let p = $("<p>");
-        // p.append("Africa");
-        // $("p").addClass("div");
+        let p = $("<p>");
+        p.append("Africa");
+        $("p").addClass("div");
     });
 
     // mouseleaveしたら、グレーアウトを元に戻す
@@ -53,8 +53,26 @@ $(function () {
         });
 
         // scrollTopを追加する
-        $(".scroll-top").on("click", function(){
-            $("html, body").stop().animate({scrollTop: 0}, 1000);
+        $(".scroll").on("click", function () {
+            $("html, body").stop().animate({ scrollTop: 0 }, 1000);
+        });
+
+        // ページ内のY座標を取得
+        // let destinations = $("#destinations").offset();
+        $(".scroll1").on("click", function () {
+            $("html, body").stop().animate({ scrollTop: 697.6000061035156 }, 500);
+        });
+
+        $(".scroll2").on("click", function(){
+            $("html, body").stop().animate({scrollTop: 1367.2000122070312}, 500);
+        });
+
+        $(".scroll3").on("click", function(){
+            $("html, body").stop().animate({scrollTop: 8284.800048828125}, 1000);
+        });
+
+        $(".scroll4").on("click", function(){
+            $("html, body").stop().animate({scrollTop: 8633.400195121765}, 1000);
         });
     });
 
@@ -147,7 +165,7 @@ var galleryTop1 = new Swiper('.gallery-top1', {
         prevEl: '.swiper-button-prev',
     },
     thumbs: {
-        swiper: galleryThumbs,
+        swiper: galleryThumbs1,
     },
 });
 
@@ -170,7 +188,7 @@ var galleryTop2 = new Swiper('.gallery-top2', {
         prevEl: '.swiper-button-prev',
     },
     thumbs: {
-        swiper: galleryThumbs,
+        swiper: galleryThumbs2,
     },
 });
 
@@ -193,7 +211,7 @@ var galleryTop3 = new Swiper('.gallery-top3', {
         prevEl: '.swiper-button-prev',
     },
     thumbs: {
-        swiper: galleryThumbs,
+        swiper: galleryThumbs3,
     },
 });
 
@@ -216,7 +234,7 @@ var galleryTop4 = new Swiper('.gallery-top4', {
         prevEl: '.swiper-button-prev',
     },
     thumbs: {
-        swiper: galleryThumbs,
+        swiper: galleryThumbs4,
     },
 });
 
@@ -239,9 +257,13 @@ var galleryTop5 = new Swiper('.gallery-top5', {
         prevEl: '.swiper-button-prev',
     },
     thumbs: {
-        swiper: galleryThumbs,
+        swiper: galleryThumbs5,
     },
 });
+
+
+
+
 
 
 
