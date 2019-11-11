@@ -298,7 +298,7 @@ h1{
       flex-direction: column;
       align-content: center;
       position: fixed;
-      top: 200px;
+      top: 50px;
       right: 30px;
       background-color: grey;
       border: 1px solid grey;
