@@ -69,21 +69,24 @@ $(function () {
         });
 
         // ページ内のY座標を取得
-        // let destinations = $("#destinations").offset();
+        let destinations = $("#destinations").offset().top;
         $(".scroll1").on("click", function () {
-            $("html, body").stop().animate({ scrollTop: 842 }, 500);
+            $("html, body").stop().animate({ scrollTop: destinations }, 500);
         });
 
+        let countries = $("#countries").offset().top;
         $(".scroll2").on("click", function(){
-            $("html, body").stop().animate({scrollTop: 1662}, 500);
+            $("html, body").stop().animate({scrollTop: countries}, 500);
         });
 
+        let news = $("#news").offset().top;
         $(".scroll3").on("click", function(){
-            $("html, body").stop().animate({scrollTop: 8602}, 1000);
+            $("html, body").stop().animate({scrollTop: news}, 1000);
         });
 
+        let comment = $("#comment").offset().top;
         $(".scroll4").on("click", function(){
-            $("html, body").stop().animate({scrollTop: 9011}, 1000);
+            $("html, body").stop().animate({scrollTop: comment}, 1000);
         });
     });
 
@@ -271,6 +274,25 @@ var galleryTop5 = new Swiper('.gallery-top5', {
         swiper: galleryThumbs5,
     },
 });
+
+$('.menu-trigger').on('click',function(){
+    if($(this).hasClass('active')){
+      $(this).removeClass('active');
+      $('nav').removeClass('open');
+      $('.overlay').removeClass('open');
+    } else {
+      $(this).addClass('active');
+      $('nav').addClass('open');
+      $('.overlay').addClass('open');
+    }
+  });
+  $('.overlay').on('click',function(){
+    if($(this).hasClass('open')){
+      $(this).removeClass('open');
+      $('.menu-trigger').removeClass('active');
+      $('nav').removeClass('open');      
+    }
+  });
 
 
 
