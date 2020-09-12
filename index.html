@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="wrapper">
-    <div id="container">
-        <header>
-            <h1 id="sub-title">50 Must Vist Extraordinary Nature on the Planet</h1>
-            <!-- <nav> -->
-            <!-- <ul id="nav-styling">
+        <div id="container">
+            <header>
+                <h1 id="sub-title">50 Must Vist Extraordinary Nature on the Planet</h1>
+                <!-- <nav> -->
+                <!-- <ul id="nav-styling">
                     <a href="#container">
                         <li class="inner-nav">HOME</li>
                     </a>
@@ -39,1048 +39,1128 @@
                     </a>
                 </ul>
             </nav> -->
-        </header>
+            </header>
 
-        <canvas id="canvas">
-            <!-- <img src="img/globe/globe.jpg" alt="globe pic" id="main-img"> -->
-        </canvas>
+            <canvas id="canvas">
+                <!-- <img src="img/globe/globe.jpg" alt="globe pic" id="main-img"> -->
+            </canvas>
 
-        <section id="inner-context">
-            <h1 id="destinations">DESTINATIONS</h1>
-            <section class="content">
-                <section id="feature">
-                    <div id="feature-img">
-                        <div class="img-column">
+            <section id="inner-context">
+                <h1 id="destinations">DESTINATIONS</h1>
+                <section class="content">
+                    <section id="feature">
+                        <div id="feature-img">
+                            <div class="img-column">
+                                <p>Africa</p>
+                                <a href="#africa" class="modal-open"><img src="img/Africa/africaMap.jpg" alt="Africa"
+                                        class="africa grey-out shake-slow"></a>
+                            </div>
+                            <div class="img-column">
+                                <p>Antarctica</p>
+                                <a href="#antarctica"><img src="img/Antarctica/antarticaMap.jpg" alt="Antarctica"
+                                        class="antarctica grey-out shake-slow"></a>
+                            </div>
+                            <div class="img-column">
+                                <p class="country">Asia</p>
+                                <a href="#asia"><img src="img/Asia/asiaMap.jpg" alt="Asia"
+                                        class="asia grey-out shake-slow"></a>
+                            </div>
+                            <div class="img-column">
+                                <p class="country">Canada</p>
+                                <a href="#canada"><img src="img/Canada//canadaMap.jpg" alt="Canada"
+                                        class="canada grey-out shake-slow"></a>
+                            </div>
+                            <div class="img-column">
+                                <p class="country">Europe</p>
+                                <a href="#europe"><img src="img/Europe/europeMap.jpg" alt="Europe"
+                                        class="europe grey-out shake-slow"></a>
+                            </div>
+                            <div class="img-column">
+                                <p>Japan</p>
+                                <a href="#japan" class="modal-open"><img src="img/Japan/japanMap.jpg" alt="Japan"
+                                        class="africa grey-out shake-slow"></a>
+                            </div>
+                            <div class="img-column">
+                                <p class="country">Middle East</p>
+                                <a href="#middle-east"><img src="img/MiddleEast/middleEastMap.jpg" alt="Middle East"
+                                        class="middle-east grey-out shake-slow"></a>
+                            </div>
+                            <div class="img-column">
+                                <p class="country">Oceania</p>
+                                <a href="#oceania"><img src="img/Oceania/OceaniaMap.jpg" alt="Oceania Map"
+                                        class="oceania grey-out shake-slow"></a>
+                            </div>
+                            <div class="img-column">
+                                <p class="country">South America</p>
+                                <a href="#south-america"><img src="img/southAmerica/SouthAmericaMap.jpg"
+                                        alt="South AMerica Map" class="south-america grey-out shake-slow"></a>
+                            </div>
+                            <div class="img-column">
+                                <p class="country">USA</p>
+                                <a href="#usa"><img src="img/US/USAMap.jpg" alt="USA Map"
+                                        class="usa grey-out shake-slow"></a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="countries">
+                        <h1>COUNTRIES</h1>
+                        <!-- Thumbs gallery HTML -->
+                        <div class="swiper-container gallery-top" id="africa">
                             <p>Africa</p>
-                            <a href="#africa" class="modal-open"><img src="img/Africa/africaMap.jpg" alt="Africa"
-                                    class="africa grey-out shake-slow"></a>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(img/Africa/Botswana.jpg)">
+                                    Botswana<br>
+                                    he lush Okavango Delta—a 49-million acre river delta in northern Botswana—is like a
+                                    real-world
+                                    eden, where cheetahs, zebras, buffalo, and rhinos roam freely. Visit during Africa's
+                                    winter (our
+                                    summer), after the rains when the delta floods: The savanna’s grasses are low, while
+                                    growth
+                                    along the waterways attracts tons of wildlife.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Africa/Madagascar.jpg)">Avenue
+                                    of
+                                    the Baobabs, Madagascar<br>
+                                    Separated from continental Africa by 250 miles of water, Madagascar is the greatest
+                                    adventure
+                                    you haven't had yet. The island nation's secrets include giant moths, bug-eyed
+                                    lemurs,
+                                    and
+                                    places like the surreal Avenue of the Baobabs, where the centuries-old trees reach
+                                    heights of
+                                    nearly 100 feet.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Africa/Namibia.jpg)">Namib
+                                    Desert,
+                                    Namibia<br>
+                                    With its otherworldly landscapes and isolated luxury lodges—not to mention
+                                    populations
+                                    of
+                                    rhinos, giraffes, and elephants—Namibia is like nowhere else on Earth. In fact, its
+                                    red
+                                    sand
+                                    dunes and skeletal trees might make you think you've been transported to Mars
+                                    instead of
+                                    southwest Africa.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Africa/southAfrica.jpg)">
+                                    Boulders Beach, South Africa<br>
+                                    Located on the False Bay Coastline, about 17 miles south of Table Mountain, Boulders
+                                    Beach shows
+                                    off Cape Town's famously beautiful landscapes—bright blue water, granite boulders,
+                                    and...
+                                    penguins! Many people swim here just a few feet away from the adorable African
+                                    penguin
+                                    community, but feel free to just sit back and admire the beautiful coastline as
+                                    well.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Africa/tanzania.jpg)">Mount
+                                    Kilimanjaro, Tanzania<br>
+                                    Africa's highest peak seems more striking than a lot of other famous mountains,
+                                    because
+                                    it's an
+                                    ancient stratovolcano that's not part of any mountain range. That means the
+                                    19,000-foot
+                                    summit
+                                    drops down to vast, flat plains on all sides, making it a mirage-like blip on
+                                    Tanzania's
+                                    widespread topography. As an added bonus, the peak requires no technical
+                                    mountaineering
+                                    skills
+                                    to summit, so even novice hikers can cross this item off their bucket lists.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/africa/tanzania1.jpg)">
+                                    Serengeti
+                                    National Park, Tanzania<br>
+                                    Tanzania's portion of the Serengeti is the ideal location for an African adventure.
+                                    Visit
+                                    between January and March to witness the wonder that is the Great Migration, an
+                                    iconic
+                                    phenomenon that sees 1.5 million wildebeest sweep through East Africa on an annual,
+                                    1,200-mile
+                                    cycle. Even better? Watch the stampeding animals from a luxurious safari lodge, like
+                                    Singita
+                                    Mara River Tented Camp or Mwiba Lodge.
+                                </div>
+                                <div class="swiper-slide"
+                                    style="background-image:url(img/Africa/ZambiaAndZimbabwe.jpg)">
+                                    ZVictoria Falls, Zambia and Zimbabwe<br>
+                                    Nothing compares to standing in front of the world's largest waterfall, which
+                                    stretches
+                                    in
+                                    length for a full mile. Visit between February and May (after the region's rainy
+                                    season)
+                                    for the
+                                    clearest views of the 500 million liters of water that pour over the falls every 60
+                                    seconds.
+                                </div>
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next swiper-button-white"></div>
+                            <div class="swiper-button-prev swiper-button-white"></div>
                         </div>
-                        <div class="img-column">
-                            <p>Antarctica</p>
-                            <a href="#antarctica"><img src="img/Antarctica/antarticaMap.jpg" alt="Antarctica"
-                                    class="antarctica grey-out shake-slow"></a>
+                        <div class="swiper-container gallery-thumbs">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(img/Africa/Botswana.jpg)">Botswana
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Africa/Madagascar.jpg)">
+                                    Madagascar
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Africa/Namibia.jpg)">Namibia
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Africa/southAfrica.jpg)">
+                                    SouthAfrica</div>
+                                <div class="swiper-slide" style="background-image:url(img/Africa/tanzania.jpg)">Tanzania
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/africa/tanzania1.jpg)">
+                                    Tanzania1
+                                </div>
+                                <div class="swiper-slide"
+                                    style="background-image:url(img/Africa/ZambiaAndZimbabwe.jpg)">
+                                    ZambiaAndZimbabwe</div>
+                            </div>
                         </div>
-                        <div class="img-column">
-                            <p class="country">Asia</p>
-                            <a href="#asia"><img src="img/Asia/asiaMap.jpg" alt="Asia"
-                                    class="asia grey-out shake-slow"></a>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="swiper-container">
+                            <p id="antarctica">Antarctica</p>
+                            <div class="swiper-slide" style="background-image:url(img/Antarctica/Antarctica.jpg)">
+                                That's right, we put an entire continent on here. Although 99 percent of Antarctica is
+                                covered
+                                with ice, the landscape still manages to be stunningly diverse—surreal blue glaciers,
+                                active
+                                volcanoes, the rough waterways of the Drake Passage, and 360-degree views of untouched
+                                snow.
+                                And
+                                those views are made even better when an emperor penguin or humpback whale makes an
+                                appearance.
+                            </div>
                         </div>
-                        <div class="img-column">
-                            <p class="country">Canada</p>
-                            <a href="#canada"><img src="img/Canada//canadaMap.jpg" alt="Canada"
-                                    class="canada grey-out shake-slow"></a>
-                        </div>
-                        <div class="img-column">
-                            <p class="country">Europe</p>
-                            <a href="#europe"><img src="img/Europe/europeMap.jpg" alt="Europe"
-                                    class="europe grey-out shake-slow"></a>
-                        </div>
-                        <div class="img-column">
-                            <p>Japan</p>
-                            <a href="#japan" class="modal-open"><img src="img/Japan/japanMap.jpg" alt="Japan"
-                                    class="africa grey-out shake-slow"></a>
-                        </div>
-                        <div class="img-column">
-                            <p class="country">Middle East</p>
-                            <a href="#middle-east"><img src="img/MiddleEast/middleEastMap.jpg" alt="Middle East"
-                                    class="middle-east grey-out shake-slow"></a>
-                        </div>
-                        <div class="img-column">
-                            <p class="country">Oceania</p>
-                            <a href="#oceania"><img src="img/Oceania/OceaniaMap.jpg" alt="Oceania Map"
-                                    class="oceania grey-out shake-slow"></a>
-                        </div>
-                        <div class="img-column">
-                            <p class="country">South America</p>
-                            <a href="#south-america"><img src="img/southAmerica/SouthAmericaMap.jpg"
-                                    alt="South AMerica Map" class="south-america grey-out shake-slow"></a>
-                        </div>
-                        <div class="img-column">
-                            <p class="country">USA</p>
-                            <a href="#usa"><img src="img/US/USAMap.jpg" alt="USA Map"
-                                    class="usa grey-out shake-slow"></a>
-                        </div>
-                    </div>
-                </section>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="swiper-container gallery-top1" id="asia">
+                            <p>Asia</p>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(img/Asia/bali.jpg)">Ubud, Bali<br>
+                                    As crowded as Ubud can get, the town is only minutes from dozens of authentic
+                                    villages
+                                    and
+                                    peaceful countryside vistas. Rent a motorbike or bicycle at your hotel and get lost
+                                    in
+                                    the
+                                    villages, tangerine groves, and rice paddies—kept alive by farmers who tend the
+                                    terraces
+                                    just as
+                                    previous generations have done for millennia.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Asia/china.jpg)">Wulingyuan
+                                    Scenic
+                                    Area, China<br>
+                                    Scenic might be an understatement in this case. This 100-square-mile attraction in
+                                    China's
+                                    Hunan
+                                    Province contains thousands of sandstone pillars that are nature's version of
+                                    skyscrapers—some
+                                    even stretch taller than the Empire State Building's midpoint.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Asia/china1.jpg)">Zhangye
+                                    Danxia
+                                    Landform, China
+                                    <br>
+                                    These striped, multicolored mountains are Mother Nature's answer to Photoshop. Red
+                                    sandstone
+                                    and
+                                    mineral deposits have been building up in China's Danxia Landform Geological Park
+                                    for
+                                    more
+                                    than
+                                    20 million years, causing the surreal layered effect.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Asia/indonesia.jpg)">Raja
+                                    Ampat
+                                    Islands, Indonesia<br>
+                                    Raja Ampat is a chain of some 1,500 islands strung along nearly 29,000 square miles
+                                    off
+                                    the
+                                    western coast of West Papua. The views here are downright prehistoric: jagged lava
+                                    peaks
+                                    clad in
+                                    green jungle; palms sprouting out of sheer cliff walls; mist drifting in and out of
+                                    deep
+                                    canyons. The biodiverse islands are easily one of the most physically ravishing
+                                    destinations
+                                    on
+                                    the planet.
+                                    <div class="swiper-slide" style="background-image:url(img/Asia/Philippines.jpg)">
+                                        Boracay, Philippines<br>
+                                        With its gentle coastlines and transporting sunsets, it's easy to see why
+                                        Boracay
+                                        was voted
+                                        one
+                                        of the best islands in the world by our readers. Unfortunately, it's become too
+                                        touristed—the
+                                        island closed for "rehabilitation" last year to compensate for overcrowding and
+                                        unregulated
+                                        development; it's since reopened to a limited number of visitors per day.
 
-                <section id="countries">
-                    <h1>COUNTRIES</h1>
-                    <!-- Thumbs gallery HTML -->
-                    <div class="swiper-container gallery-top" id="africa">
-                        <p>Africa</p>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image:url(img/Africa/Botswana.jpg)">Botswana<br>
-                                he lush Okavango Delta—a 49-million acre river delta in northern Botswana—is like a
-                                real-world
-                                eden, where cheetahs, zebras, buffalo, and rhinos roam freely. Visit during Africa's
-                                winter (our
-                                summer), after the rains when the delta floods: The savanna’s grasses are low, while
-                                growth
-                                along the waterways attracts tons of wildlife.
+                                    </div>
+                                    <div class="swiper-slide" style="background-image:url(img/Asia/russia.jpg)">Lake
+                                        Baikal,
+                                        Russia
+                                        <br>
+                                        The oldest and deepest lake on earth—it reaches a depth of one mile in some
+                                        spots—is
+                                        also
+                                        home
+                                        to our planet's only freshwater seals. Come winter, the lake transforms into a
+                                        wonderland,
+                                        with
+                                        jagged ice caves encircling what amounts to the world's largest ice skating
+                                        rink.
+                                    </div>
+                                    <div class="swiper-slide" style="background-image:url(img/Asia/Turkey.jpg)">
+                                        Cappadocia,
+                                        Turkey
+                                        <br>
+                                        Cappadocia, an area in Turkey where entire cities have been carved into rock, is
+                                        pretty
+                                        incredible on its own. But whenever hot-air balloons pepper the sky, its beauty
+                                        level
+                                        literally
+                                        skyrockets.
+                                    </div>
+                                    <div class="swiper-slide" style="background-image:url(img/Asia/turkey1.jpg)">
+                                        Pamukkale,
+                                        Turkey
+                                        <br>
+                                        The 17 tiered pools of Pamukkale ("cotton castle" in Turkish) are as beautiful
+                                        as
+                                        hot springs
+                                        get. The stacks of white travertine (a form of limestone) overlook the city of
+                                        Denizli, and
+                                        the
+                                        still, 94-degree Fahrenheit waters perfectly reflect the cerulean Aegean sky.
+                                    </div>
+                                    <div class="swiper-slide" style="background-image:url(img/Asia/vietnam.jpg)">Halong
+                                        Bay,
+                                        Vietnam
+                                        <br>
+                                        Halong Bay, located in northeast Vietnam, is beloved for its blue waters and
+                                        spread
+                                        of
+                                        limestone
+                                        islands, all occupied by tropical trees and wildlife. Board a Chinese junk boat
+                                        to
+                                        experience
+                                        the beauty—and associated myths and stories—of the mist-shrouded emerald basin
+                                        for
+                                        yourself.
+                                    </div>
+                                </div>
                             </div>
-                            <div class="swiper-slide" style="background-image:url(img/Africa/Madagascar.jpg)">Avenue of
-                                the Baobabs, Madagascar<br>
-                                Separated from continental Africa by 250 miles of water, Madagascar is the greatest
-                                adventure
-                                you haven't had yet. The island nation's secrets include giant moths, bug-eyed lemurs,
-                                and
-                                places like the surreal Avenue of the Baobabs, where the centuries-old trees reach
-                                heights of
-                                nearly 100 feet.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Africa/Namibia.jpg)">Namib Desert,
-                                Namibia<br>
-                                With its otherworldly landscapes and isolated luxury lodges—not to mention populations
-                                of
-                                rhinos, giraffes, and elephants—Namibia is like nowhere else on Earth. In fact, its red
-                                sand
-                                dunes and skeletal trees might make you think you've been transported to Mars instead of
-                                southwest Africa.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Africa/southAfrica.jpg)">
-                                Boulders Beach, South Africa<br>
-                                Located on the False Bay Coastline, about 17 miles south of Table Mountain, Boulders
-                                Beach shows
-                                off Cape Town's famously beautiful landscapes—bright blue water, granite boulders,
-                                and...
-                                penguins! Many people swim here just a few feet away from the adorable African penguin
-                                community, but feel free to just sit back and admire the beautiful coastline as well.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Africa/tanzania.jpg)">Mount
-                                Kilimanjaro, Tanzania<br>
-                                Africa's highest peak seems more striking than a lot of other famous mountains, because
-                                it's an
-                                ancient stratovolcano that's not part of any mountain range. That means the 19,000-foot
-                                summit
-                                drops down to vast, flat plains on all sides, making it a mirage-like blip on Tanzania's
-                                widespread topography. As an added bonus, the peak requires no technical mountaineering
-                                skills
-                                to summit, so even novice hikers can cross this item off their bucket lists.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/africa/tanzania1.jpg)">Serengeti
-                                National Park, Tanzania<br>
-                                Tanzania's portion of the Serengeti is the ideal location for an African adventure.
-                                Visit
-                                between January and March to witness the wonder that is the Great Migration, an iconic
-                                phenomenon that sees 1.5 million wildebeest sweep through East Africa on an annual,
-                                1,200-mile
-                                cycle. Even better? Watch the stampeding animals from a luxurious safari lodge, like
-                                Singita
-                                Mara River Tented Camp or Mwiba Lodge.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Africa/ZambiaAndZimbabwe.jpg)">
-                                ZVictoria Falls, Zambia and Zimbabwe<br>
-                                Nothing compares to standing in front of the world's largest waterfall, which stretches
-                                in
-                                length for a full mile. Visit between February and May (after the region's rainy season)
-                                for the
-                                clearest views of the 500 million liters of water that pour over the falls every 60
-                                seconds.
-                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next swiper-button-white"></div>
+                            <div class="swiper-button-prev swiper-button-white"></div>
                         </div>
-                        <!-- Add Arrows -->
-                        <div class="swiper-button-next swiper-button-white"></div>
-                        <div class="swiper-button-prev swiper-button-white"></div>
-                    </div>
-                    <div class="swiper-container gallery-thumbs">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image:url(img/Africa/Botswana.jpg)">Botswana
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Africa/Madagascar.jpg)">Madagascar
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Africa/Namibia.jpg)">Namibia</div>
-                            <div class="swiper-slide" style="background-image:url(img/Africa/southAfrica.jpg)">
-                                SouthAfrica</div>
-                            <div class="swiper-slide" style="background-image:url(img/Africa/tanzania.jpg)">Tanzania
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/africa/tanzania1.jpg)">Tanzania1
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Africa/ZambiaAndZimbabwe.jpg)">
-                                ZambiaAndZimbabwe</div>
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <div class="swiper-container">
-                        <p id="antarctica">Antarctica</p>
-                        <div class="swiper-slide" style="background-image:url(img/Antarctica/Antarctica.jpg)">
-                            That's right, we put an entire continent on here. Although 99 percent of Antarctica is
-                            covered
-                            with ice, the landscape still manages to be stunningly diverse—surreal blue glaciers, active
-                            volcanoes, the rough waterways of the Drake Passage, and 360-degree views of untouched snow.
-                            And
-                            those views are made even better when an emperor penguin or humpback whale makes an
-                            appearance.
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <div class="swiper-container gallery-top1" id="asia">
-                        <p>Asia</p>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image:url(img/Asia/bali.jpg)">Ubud, Bali<br>
-                                As crowded as Ubud can get, the town is only minutes from dozens of authentic villages
-                                and
-                                peaceful countryside vistas. Rent a motorbike or bicycle at your hotel and get lost in
-                                the
-                                villages, tangerine groves, and rice paddies—kept alive by farmers who tend the terraces
-                                just as
-                                previous generations have done for millennia.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Asia/china.jpg)">Wulingyuan Scenic
-                                Area, China<br>
-                                Scenic might be an understatement in this case. This 100-square-mile attraction in
-                                China's
-                                Hunan
-                                Province contains thousands of sandstone pillars that are nature's version of
-                                skyscrapers—some
-                                even stretch taller than the Empire State Building's midpoint.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Asia/china1.jpg)">Zhangye Danxia
-                                Landform, China
-                                <br>
-                                These striped, multicolored mountains are Mother Nature's answer to Photoshop. Red
-                                sandstone
-                                and
-                                mineral deposits have been building up in China's Danxia Landform Geological Park for
-                                more
-                                than
-                                20 million years, causing the surreal layered effect.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Asia/indonesia.jpg)">Raja Ampat
-                                Islands, Indonesia<br>
-                                Raja Ampat is a chain of some 1,500 islands strung along nearly 29,000 square miles off
-                                the
-                                western coast of West Papua. The views here are downright prehistoric: jagged lava peaks
-                                clad in
-                                green jungle; palms sprouting out of sheer cliff walls; mist drifting in and out of deep
-                                canyons. The biodiverse islands are easily one of the most physically ravishing
-                                destinations
-                                on
-                                the planet.
+                        <div class="swiper-container gallery-thumbs1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(img/Asia/bali.jpg)">Ubud, Bali
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Asia/china.jpg)">Wulingyuan
+                                    Scenic
+                                    Area, China
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Asia/china1.jpg)">Zhangye
+                                    Danxia
+                                    Landform, China</div>
+                                <div class="swiper-slide" style="background-image:url(img/Asia/indonesia.jpg)">Raja
+                                    Ampat
+                                    Islands, Indonesia
+                                </div>
                                 <div class="swiper-slide" style="background-image:url(img/Asia/Philippines.jpg)">
-                                    Boracay, Philippines<br>
-                                    With its gentle coastlines and transporting sunsets, it's easy to see why Boracay
-                                    was voted
-                                    one
-                                    of the best islands in the world by our readers. Unfortunately, it's become too
-                                    touristed—the
-                                    island closed for "rehabilitation" last year to compensate for overcrowding and
-                                    unregulated
-                                    development; it's since reopened to a limited number of visitors per day.
-
+                                    Boracay, Philippines
                                 </div>
                                 <div class="swiper-slide" style="background-image:url(img/Asia/russia.jpg)">Lake Baikal,
                                     Russia
-                                    <br>
-                                    The oldest and deepest lake on earth—it reaches a depth of one mile in some spots—is
-                                    also
-                                    home
-                                    to our planet's only freshwater seals. Come winter, the lake transforms into a
-                                    wonderland,
-                                    with
-                                    jagged ice caves encircling what amounts to the world's largest ice skating rink.
                                 </div>
                                 <div class="swiper-slide" style="background-image:url(img/Asia/Turkey.jpg)">Cappadocia,
                                     Turkey
-                                    <br>
-                                    Cappadocia, an area in Turkey where entire cities have been carved into rock, is
-                                    pretty
-                                    incredible on its own. But whenever hot-air balloons pepper the sky, its beauty
-                                    level
-                                    literally
-                                    skyrockets.
                                 </div>
                                 <div class="swiper-slide" style="background-image:url(img/Asia/turkey1.jpg)">Pamukkale,
                                     Turkey
-                                    <br>
-                                    The 17 tiered pools of Pamukkale ("cotton castle" in Turkish) are as beautiful as
-                                    hot springs
-                                    get. The stacks of white travertine (a form of limestone) overlook the city of
-                                    Denizli, and
-                                    the
-                                    still, 94-degree Fahrenheit waters perfectly reflect the cerulean Aegean sky.
                                 </div>
                                 <div class="swiper-slide" style="background-image:url(img/Asia/vietnam.jpg)">Halong Bay,
                                     Vietnam
-                                    <br>
-                                    Halong Bay, located in northeast Vietnam, is beloved for its blue waters and spread
-                                    of
-                                    limestone
-                                    islands, all occupied by tropical trees and wildlife. Board a Chinese junk boat to
-                                    experience
-                                    the beauty—and associated myths and stories—of the mist-shrouded emerald basin for
-                                    yourself.
                                 </div>
                             </div>
                         </div>
-                        <!-- Add Arrows -->
-                        <div class="swiper-button-next swiper-button-white"></div>
-                        <div class="swiper-button-prev swiper-button-white"></div>
-                    </div>
-                    <div class="swiper-container gallery-thumbs1">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image:url(img/Asia/bali.jpg)">Ubud, Bali
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Asia/china.jpg)">Wulingyuan
-                                Scenic
-                                Area, China
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Asia/china1.jpg)">Zhangye
-                                Danxia
-                                Landform, China</div>
-                            <div class="swiper-slide" style="background-image:url(img/Asia/indonesia.jpg)">Raja
-                                Ampat
-                                Islands, Indonesia
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Asia/Philippines.jpg)">
-                                Boracay, Philippines
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Asia/russia.jpg)">Lake Baikal,
-                                Russia
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Asia/Turkey.jpg)">Cappadocia,
-                                Turkey
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Asia/turkey1.jpg)">Pamukkale,
-                                Turkey
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Asia/vietnam.jpg)">Halong Bay,
-                                Vietnam
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <div class="swiper-container">
+                            <p id="canada">Canada</p>
+                            <div class="swiper-slide" style="background-image: url(img/Canada/canada.jpg)">
+                                Banff National Park, Canada<br>
+                                Easily one of the most beautiful spots in Canada, Banff National Park overwhelms with
+                                views
+                                of
+                                the Canadian Rockies and regular cast of wildlife. The park is also known for its
+                                abundance
+                                of
+                                beautiful lakes, including Lake Louise, Moraine Lake, and glacial Lake Minnewanka—each
+                                more
+                                pristine than the last.
                             </div>
                         </div>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
 
-                    <div class="swiper-container">
-                        <p id="canada">Canada</p>
-                        <div class="swiper-slide" style="background-image: url(img/Canada/canada.jpg)">
-                            Banff National Park, Canada<br>
-                            Easily one of the most beautiful spots in Canada, Banff National Park overwhelms with
-                            views
-                            of
-                            the Canadian Rockies and regular cast of wildlife. The park is also known for its
-                            abundance
-                            of
-                            beautiful lakes, including Lake Louise, Moraine Lake, and glacial Lake Minnewanka—each
-                            more
-                            pristine than the last.
+                        <div class="swiper-container gallery-top2" id="europe">
+                            <p>Europe</p>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(img/Europe/croatia.jpg)">
+                                    Plitvice Lakes National Park, Croatia<br>
+                                    If you can make it through the crowds of selfie-taking tourists, you'll discover
+                                    that
+                                    Plitvice
+                                    Lakes National Park more than lives up to the hype. The 16 terraced lakes of
+                                    Croatia's most
+                                    popular site are connected by waterfalls and vary in shades of blue, resulting in
+                                    something
+                                    that
+                                    defies the imagination.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Europe/faroeIslands.jpg)">
+                                    Faroe Islands<br>
+                                    If you haven't heard of the Faroe Islands, you definitely will soon. With its
+                                    grass-roofed
+                                    houses, rocky coastlines, and abundance of puffins, the self-governed group of 18
+                                    volcanic
+                                    islands is basically one giant photo op. Mulafossur Waterfall might be the
+                                    archipelago's
+                                    most
+                                    famous site—the cascade is like something from a fantasy novel, falling over the
+                                    rocky
+                                    cliffs of
+                                    Vagar Island to the ocean below, with the green hills of Gásadalur village as a
+                                    backdrop.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Europe/france.jpg)">Provence,
+                                    France
+                                    <br>
+                                    The seemingly endless stretches of lavender fields make Provence one of the
+                                    prettiest (and
+                                    best-smelling) places in France. Distilleries—where the essential oil from the
+                                    flowers are
+                                    bottled or used to make soaps, lotions, and creams—dot the area, but the multitude
+                                    of fields
+                                    featuring unreal violet views are the real pride of Provence.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Europe/greece.jpg)">Zakynthos,
+                                    Greece
+                                    <br>
+                                    Far less crowded than sister islands Mykonos and Santorini, Zakynthos has some of
+                                    the most
+                                    beautiful beaches in the Greek Isles—namely, Navagio Beach. Sheltered by cliffs,
+                                    Navagio is
+                                    only
+                                    accessible by boat, and draws its name (“Shipwreck”) from a freighter that ran
+                                    aground, was
+                                    abandoned, and still rests in the beach’s white sands today.
+                                    <div class="swiper-slide" style="background-image:url(img/Europe/greenland.jpg)">
+                                        Disko Bay, Greenland<br>
+                                        Greenland is icy, mysterious, and one of the most naturally beautiful places on
+                                        the planet.
+                                        Disko Bay perfectly illustrates the untouched allure of the island with its
+                                        impressive
+                                        icebergs,
+                                        charming coastal settlements, and common sightings of breaching humpback whales.
+                                    </div>
+                                    <div class="swiper-slide" style="background-image:url(img/Europe/iceland.jpg)">
+                                        Reynisfjara, Iceland<br>
+                                        If the moon had a shoreline, it would probably look something like Reynisfjara.
+                                        Just a
+                                        20-minute
+                                        drive from Vik in southern Iceland, jet-black sand and spectacularly shaped
+                                        basalt columns
+                                        make
+                                        the this beach one of the most impressive sites in an already impressive
+                                        country.
+                                    </div>
+                                    <div class="swiper-slide" style="background-image:url(img/Europe/Ireland.jpg)">
+                                        Cliffs of Moher, Ireland<br>
+                                        Few places exemplify the raw, untamed beauty of Ireland’s west coast as this
+                                        natural wonder,
+                                        which tops 702 feet at the highest point. And while you might know them better
+                                        as the Cliffs
+                                        of
+                                        Insanity from The Princess Bride (inconceivable!), in reality, the cliffs are
+                                        located just
+                                        south
+                                        of Galway.
+                                    </div>
+                                    <div class="swiper-slide" style="background-image:url(img/Europe/norway.jpg)">
+                                        Trolltunga, Norway
+                                        <br>
+                                        Any Pinterest or Instagram user has probably seen a photo of Trolltunga
+                                        ("Troll's Tongue),
+                                        Norway's undeniable photography darling. The protruding rock sits about 2,300
+                                        feet above
+                                        Lake
+                                        Ringedalsvatnet, tempting travelers to inch out to the edge. Unfortunately,
+                                        Trolltunga has
+                                        fallen prey to "death by popularity" and local organizations have called for
+                                        tourist caps to
+                                        protect the site. But even if you don't get your once-in-a-lifetime profile
+                                        picture on the
+                                        rock's edge, you can still soak up some epic fjord views from the surrounding
+                                        mountain area.
+                                    </div>
+                                    <div class="swiper-slide" style="background-image:url(img/Europe/Portugal.jpg)">
+                                        The Azores, Portugal<br>
+                                        Roughly 900 miles off the coast of Lisbon, this Portuguese archipelago can
+                                        inspire wanderlust
+                                        with a single photo. The verdant valleys, steep ocean-side cliffs, rows of blue
+                                        hydrangeas,
+                                        and
+                                        scattering of waterfalls make the Azores a paradise worth exploring—just make
+                                        sure you visit
+                                        before everyone you know beats you to it.
+                                    </div>
+                                    <div class="swiper-slide" style="background-image:url(img/Europe/scotland.jpg)">Isle
+                                        of Skye, Scotland
+                                        <br>
+                                        With fairy pools and endless undulations of hills, the magical Isle of Skye is
+                                        the stuff
+                                        dreams
+                                        are made of (regardless of whether you've binge-watched Outlander yet). While
+                                        the nature
+                                        here is
+                                        timeless, the island has a food scene that's totally modern—we can't think of a
+                                        more
+                                        beautiful
+                                        place to sample Michelin-starred cuisine.
+                                    </div>
+                                    <div class="swiper-slide" style="background-image:url(img/Europe/spain.jpg)">Playa
+                                        de Las Catedrales, Spain
+                                        <br>
+                                        As a destination on Europe's Iberian Peninsula, Spain is renowned for its island
+                                        paradises
+                                        and
+                                        semi-remote beaches. We're particularly big fans of Playa de Las Catedrales, a
+                                        small stretch
+                                        of
+                                        sand on the Galician coast where natural stone arches form a walkable
+                                        "cathedral" at low
+                                        tide.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next swiper-button-white"></div>
+                            <div class="swiper-button-prev swiper-button-white"></div>
                         </div>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                        <div class="swiper-container gallery-thumbs2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(img/Europe/croatia.jpg)">Plitvice
+                                    Lakes National Park, Croatia
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Europe/faroeIslands.jpg)">
+                                    Faroe Islands
 
-                    <div class="swiper-container gallery-top2" id="europe">
-                        <p>Europe</p>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image:url(img/Europe/croatia.jpg)">
-                                Plitvice Lakes National Park, Croatia<br>
-                                If you can make it through the crowds of selfie-taking tourists, you'll discover
-                                that
-                                Plitvice
-                                Lakes National Park more than lives up to the hype. The 16 terraced lakes of
-                                Croatia's most
-                                popular site are connected by waterfalls and vary in shades of blue, resulting in
-                                something
-                                that
-                                defies the imagination.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Europe/faroeIslands.jpg)">
-                                Faroe Islands<br>
-                                If you haven't heard of the Faroe Islands, you definitely will soon. With its
-                                grass-roofed
-                                houses, rocky coastlines, and abundance of puffins, the self-governed group of 18
-                                volcanic
-                                islands is basically one giant photo op. Mulafossur Waterfall might be the
-                                archipelago's
-                                most
-                                famous site—the cascade is like something from a fantasy novel, falling over the
-                                rocky
-                                cliffs of
-                                Vagar Island to the ocean below, with the green hills of Gásadalur village as a
-                                backdrop.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Europe/france.jpg)">Provence,
-                                France
-                                <br>
-                                The seemingly endless stretches of lavender fields make Provence one of the
-                                prettiest (and
-                                best-smelling) places in France. Distilleries—where the essential oil from the
-                                flowers are
-                                bottled or used to make soaps, lotions, and creams—dot the area, but the multitude
-                                of fields
-                                featuring unreal violet views are the real pride of Provence.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Europe/greece.jpg)">Zakynthos,
-                                Greece
-                                <br>
-                                Far less crowded than sister islands Mykonos and Santorini, Zakynthos has some of
-                                the most
-                                beautiful beaches in the Greek Isles—namely, Navagio Beach. Sheltered by cliffs,
-                                Navagio is
-                                only
-                                accessible by boat, and draws its name (“Shipwreck”) from a freighter that ran
-                                aground, was
-                                abandoned, and still rests in the beach’s white sands today.
-                                <div class="swiper-slide" style="background-image:url(img/Europe/greenland.jpg)">
-                                    Disko Bay, Greenland<br>
-                                    Greenland is icy, mysterious, and one of the most naturally beautiful places on
-                                    the planet.
-                                    Disko Bay perfectly illustrates the untouched allure of the island with its
-                                    impressive
-                                    icebergs,
-                                    charming coastal settlements, and common sightings of breaching humpback whales.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Europe/france.jpg)">Provence,
+                                    France
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Europe/greece.jpg)">Zakynthos,
+                                    Greece
+
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Europe/greenland.jpg)">Disko
+                                    Bay, Greenland
                                 </div>
                                 <div class="swiper-slide" style="background-image:url(img/Europe/iceland.jpg)">
-                                    Reynisfjara, Iceland<br>
-                                    If the moon had a shoreline, it would probably look something like Reynisfjara.
-                                    Just a
-                                    20-minute
-                                    drive from Vik in southern Iceland, jet-black sand and spectacularly shaped
-                                    basalt columns
-                                    make
-                                    the this beach one of the most impressive sites in an already impressive
-                                    country.
+                                    Reynisfjara, Iceland
+
                                 </div>
-                                <div class="swiper-slide" style="background-image:url(img/Europe/Ireland.jpg)">
-                                    Cliffs of Moher, Ireland<br>
-                                    Few places exemplify the raw, untamed beauty of Ireland’s west coast as this
-                                    natural wonder,
-                                    which tops 702 feet at the highest point. And while you might know them better
-                                    as the Cliffs
-                                    of
-                                    Insanity from The Princess Bride (inconceivable!), in reality, the cliffs are
-                                    located just
-                                    south
-                                    of Galway.
+                                <div class="swiper-slide" style="background-image:url(img/Europe/Ireland.jpg)">Cliffs of
+                                    Moher, Ireland
+
                                 </div>
                                 <div class="swiper-slide" style="background-image:url(img/Europe/norway.jpg)">
                                     Trolltunga, Norway
-                                    <br>
-                                    Any Pinterest or Instagram user has probably seen a photo of Trolltunga
-                                    ("Troll's Tongue),
-                                    Norway's undeniable photography darling. The protruding rock sits about 2,300
-                                    feet above
-                                    Lake
-                                    Ringedalsvatnet, tempting travelers to inch out to the edge. Unfortunately,
-                                    Trolltunga has
-                                    fallen prey to "death by popularity" and local organizations have called for
-                                    tourist caps to
-                                    protect the site. But even if you don't get your once-in-a-lifetime profile
-                                    picture on the
-                                    rock's edge, you can still soak up some epic fjord views from the surrounding
-                                    mountain area.
+
                                 </div>
-                                <div class="swiper-slide" style="background-image:url(img/Europe/Portugal.jpg)">
-                                    The Azores, Portugal<br>
-                                    Roughly 900 miles off the coast of Lisbon, this Portuguese archipelago can
-                                    inspire wanderlust
-                                    with a single photo. The verdant valleys, steep ocean-side cliffs, rows of blue
-                                    hydrangeas,
-                                    and
-                                    scattering of waterfalls make the Azores a paradise worth exploring—just make
-                                    sure you visit
-                                    before everyone you know beats you to it.
+                                <div class="swiper-slide" style="background-image:url(img/Europe/Portugal.jpg)">The
+                                    Azores, Portugal
+
+
                                 </div>
                                 <div class="swiper-slide" style="background-image:url(img/Europe/scotland.jpg)">Isle
                                     of Skye, Scotland
-                                    <br>
-                                    With fairy pools and endless undulations of hills, the magical Isle of Skye is
-                                    the stuff
-                                    dreams
-                                    are made of (regardless of whether you've binge-watched Outlander yet). While
-                                    the nature
-                                    here is
-                                    timeless, the island has a food scene that's totally modern—we can't think of a
-                                    more
-                                    beautiful
-                                    place to sample Michelin-starred cuisine.
+
                                 </div>
                                 <div class="swiper-slide" style="background-image:url(img/Europe/spain.jpg)">Playa
                                     de Las Catedrales, Spain
-                                    <br>
-                                    As a destination on Europe's Iberian Peninsula, Spain is renowned for its island
-                                    paradises
-                                    and
-                                    semi-remote beaches. We're particularly big fans of Playa de Las Catedrales, a
-                                    small stretch
-                                    of
-                                    sand on the Galician coast where natural stone arches form a walkable
-                                    "cathedral" at low
-                                    tide.
+
+
                                 </div>
                             </div>
                         </div>
-                        <!-- Add Arrows -->
-                        <div class="swiper-button-next swiper-button-white"></div>
-                        <div class="swiper-button-prev swiper-button-white"></div>
-                    </div>
-                    <div class="swiper-container gallery-thumbs2">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image:url(img/Europe/croatia.jpg)">Plitvice Lakes National Park, Croatia
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Europe/faroeIslands.jpg)">Faroe Islands
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
 
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Europe/france.jpg)">Provence,
-                                France
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Europe/greece.jpg)">Zakynthos,
-                                Greece
-
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Europe/greenland.jpg)">Disko Bay, Greenland
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Europe/iceland.jpg)">Reynisfjara, Iceland
-
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Europe/Ireland.jpg)">Cliffs of Moher, Ireland
-
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Europe/norway.jpg)">Trolltunga, Norway
-
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Europe/Portugal.jpg)">The Azores, Portugal
-
-
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Europe/scotland.jpg)">Isle
-                                of Skye, Scotland
-
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Europe/spain.jpg)">Playa
-                                de Las Catedrales, Spain
-
-
+                        <div class="swiper-container">
+                            <p id="japan">Japan</p>
+                            <div class="swiper-slide" style="background-image: url(img/Japan/Japan.jpg)">
+                                Arashiyama Bamboo Grove, Japan<br>
+                                Every traveler should experience the ethereal glow and seemingly endless heights of
+                                this
+                                bamboo
+                                grove on the outskirts of Kyoto. The experience even extends beyond the visual
+                                realm: In
+                                1996,
+                                Japan's Ministry of the Environment included the sounds here—wood creaking, leaves
+                                rustling—as
+                                one of the top 100 Soundscapes of Japan.
                             </div>
                         </div>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
-                    <div class="swiper-container">
-                        <p id="japan">Japan</p>
-                        <div class="swiper-slide" style="background-image: url(img/Japan/Japan.jpg)">
-                            Arashiyama Bamboo Grove, Japan<br>
-                            Every traveler should experience the ethereal glow and seemingly endless heights of
-                            this
-                            bamboo
-                            grove on the outskirts of Kyoto. The experience even extends beyond the visual
-                            realm: In
-                            1996,
-                            Japan's Ministry of the Environment included the sounds here—wood creaking, leaves
-                            rustling—as
-                            one of the top 100 Soundscapes of Japan.
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <div class="swiper-container">
-                        <div class="swiper-slide" style="background-image: url(img/Japan/japan1.jpg)">
-                            Mount Fuji, Japan<br>
-                            It's hard to pick the single most beautiful place in Japan, but 12,388-foot Mount
-                            Fuji just
-                            might take the prize. Visit Lake Kawaguchiko in the spring for some of the best
-                            views of the
-                            mountain and cherry blossom trees—a postcard-worthy sight if we ever saw one. Or if
-                            you're
-                            an
-                            avid hiker, plan a trip for mid-July until the end of August, when the snow melts
-                            enough to
-                            allow access to Fuji's summit.
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
-                    <div class="swiper-container">
-                        <p id="middle-east">Middle East</p>
-                        <div class="swiper-slide" style="background-image: url(img/MiddleEast/yemen.jpg)">
-                            Socotra, Yemen<br>
-                            Nearly 350 miles off the southern coast of Yemen, Socotra has both the
-                            remoteness and
-                            surrealism
-                            of some strange, distant planet. The UFO-like dragon's blood trees are the
-                            island's most
-                            notable
-                            feature—we dare you to find those in your friendly neighborhood park.
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
-
-                    <!-- Oceania -->
-                    <div class="swiper-container gallery-top3" id="oceania">
-                        <p>Oceania</p>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image:url(img/Oceania/australia.jpg)">The Great
-                                Barrier
-                                Reef and Whitehaven Beach, Australia
-                                <br>
-                                Although the Great Barrier Reef—the largest living thing on Earth—can be
-                                seen
-                                from space, the
-                                best vantage point belongs to the avid snorkelers and scuba divers who visit
-                                each year. If
-                                you
-                                must resurface, do it at the Whitsundays—namely Whitehaven Beach, often
-                                considered to be one
-                                of
-                                the world's most beautiful beaches.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Oceania/australia1.jpg)">Uluru,
-                                Australia<br>
-                                No matter how you choose to view the 700-million-year-old Uluru (or Ayers
-                                Rock)—from above by
-                                hot air balloon, across the desert on a motorcycle, hiking at the base
-                                during the
-                                technicolor
-                                sunset—witnessing its majesty should be on every traveler's list.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Oceania/newZealand.jpg)">Lake
-                                Tekapo, New
-                                Zealand
-                                <br>
-                                While purple, pink, and blue-hued lupin flowers may not be native to New
-                                Zealand (they hail
-                                from
-                                North America), the really do seem to bloom the most vibrantly on the
-                                nation's South Island.
-                                At
-                                Lake Tekapo, in particular, the flowers juxtapose against the backdrop of
-                                the water to
-                                create
-                                one of the country's most stunning vistas.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Oceania/newZealand1.jpg)">Milford
-                                Sound, New
-                                Zealand
-                                <br>
-                                New Zealand is no stranger to breathtaking landscapes, particularly on the
-                                west coast of the
-                                South Island. Case in point: Milford Sound, a mountainous fjord where you
-                                can live out all
-                                of
-                                your Lord of the Rings fantasies.
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="swiper-container">
+                            <div class="swiper-slide" style="background-image: url(img/Japan/japan1.jpg)">
+                                Mount Fuji, Japan<br>
+                                It's hard to pick the single most beautiful place in Japan, but 12,388-foot Mount
+                                Fuji just
+                                might take the prize. Visit Lake Kawaguchiko in the spring for some of the best
+                                views of the
+                                mountain and cherry blossom trees—a postcard-worthy sight if we ever saw one. Or if
+                                you're
+                                an
+                                avid hiker, plan a trip for mid-July until the end of August, when the snow melts
+                                enough to
+                                allow access to Fuji's summit.
                             </div>
                         </div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next swiper-button-white"></div>
-                    <div class="swiper-button-prev swiper-button-white"></div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <div class="swiper-container">
+                            <p id="middle-east">Middle East</p>
+                            <div class="swiper-slide" style="background-image: url(img/MiddleEast/yemen.jpg)">
+                                Socotra, Yemen<br>
+                                Nearly 350 miles off the southern coast of Yemen, Socotra has both the
+                                remoteness and
+                                surrealism
+                                of some strange, distant planet. The UFO-like dragon's blood trees are the
+                                island's most
+                                notable
+                                feature—we dare you to find those in your friendly neighborhood park.
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+
+                        <!-- Oceania -->
+                        <div class="swiper-container gallery-top3" id="oceania">
+                            <p>Oceania</p>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(img/Oceania/australia.jpg)">The
+                                    Great
+                                    Barrier
+                                    Reef and Whitehaven Beach, Australia
+                                    <br>
+                                    Although the Great Barrier Reef—the largest living thing on Earth—can be
+                                    seen
+                                    from space, the
+                                    best vantage point belongs to the avid snorkelers and scuba divers who visit
+                                    each year. If
+                                    you
+                                    must resurface, do it at the Whitsundays—namely Whitehaven Beach, often
+                                    considered to be one
+                                    of
+                                    the world's most beautiful beaches.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Oceania/australia1.jpg)">
+                                    Uluru,
+                                    Australia<br>
+                                    No matter how you choose to view the 700-million-year-old Uluru (or Ayers
+                                    Rock)—from above by
+                                    hot air balloon, across the desert on a motorcycle, hiking at the base
+                                    during the
+                                    technicolor
+                                    sunset—witnessing its majesty should be on every traveler's list.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Oceania/newZealand.jpg)">Lake
+                                    Tekapo, New
+                                    Zealand
+                                    <br>
+                                    While purple, pink, and blue-hued lupin flowers may not be native to New
+                                    Zealand (they hail
+                                    from
+                                    North America), the really do seem to bloom the most vibrantly on the
+                                    nation's South Island.
+                                    At
+                                    Lake Tekapo, in particular, the flowers juxtapose against the backdrop of
+                                    the water to
+                                    create
+                                    one of the country's most stunning vistas.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Oceania/newZealand1.jpg)">
+                                    Milford
+                                    Sound, New
+                                    Zealand
+                                    <br>
+                                    New Zealand is no stranger to breathtaking landscapes, particularly on the
+                                    west coast of the
+                                    South Island. Case in point: Milford Sound, a mountainous fjord where you
+                                    can live out all
+                                    of
+                                    your Lord of the Rings fantasies.
+                                </div>
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next swiper-button-white"></div>
+                            <div class="swiper-button-prev swiper-button-white"></div>
+                        </div>
+                        <div class="swiper-container gallery-thumbs3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(img/Oceania/australia.jpg)">The
+                                    Great
+                                    Barrier
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Oceania/australia1.jpg)">
+                                    Uluru,
+                                    Australia
+
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Oceania/newZealand.jpg)">Lake
+                                    Tekapo, New Zealand
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/Oceania/newZealand1.jpg)">
+                                    Milford
+                                    Sound, New
+                                    Zealand
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <!-- South America -->
+                        <div class="swiper-container gallery-top4" id="south-america">
+                            <p>South America</p>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/Bolivia.jpg)">
+                                    Laguna
+                                    Colorada,
+                                    Bolivia
+                                    <br>
+                                    About a three-hour drive north from Chile’s San Pedro de Atacama, this salt
+                                    lake in the
+                                    shadow
+                                    of the Andes is known for its blood-red waters—the result of algae that
+                                    thrive in extreme
+                                    heat.
+                                    Flamingos (and the lake) look their best from December to April: the lake is
+                                    full of water,
+                                    making it more reflective for photos, and the birds are breeding. Be sure to
+                                    try and catch
+                                    the
+                                    lake at sunset, when it’s at its reddest.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/bolivia1.jpg)">
+                                    Salar
+                                    de Uyuni,
+                                    Bolivia<br>
+                                    Southwest Bolivia's Salar de Uyuni is the largest salt flat in the world,
+                                    and
+                                    is about as
+                                    surreal as landscapes come. When dry, the flat is a sheet of blindingly
+                                    white salt tiles.
+                                    And
+                                    during the wet season, the shallow lake mirrors the sky, creating a dreamy
+                                    illusion of
+                                    infinity.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/brazil.jpg)">
+                                    Fernando
+                                    de
+                                    Noronha, Brazil
+                                    <br>
+                                    This archipelago off the northeast coast of Brazil consists of 21 islands,
+                                    featuring some of
+                                    the
+                                    best beaches and most beautiful landscapes in the country. Think waterfalls,
+                                    towering
+                                    cliffs,
+                                    stretches of white sand, and—perhaps best of all—limited tourists.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/Chile.jpg)">
+                                    Atacama
+                                    Desert,
+                                    Chile
+                                    <br>
+                                    Have you ever dreamed of exploring the moon? A trip to Valle de la Luna in
+                                    Chile’s Atacama
+                                    Desert is a much shorter flight. Years of erosion have left behind jagged
+                                    peaks, dry
+                                    riverbeds,
+                                    and a landscape startlingly similar to that of our favorite celestial
+                                    body's.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/chile1.jpg)">
+                                    Torres
+                                    del Paine
+                                    National Park, Chile
+                                    <br>
+                                    With its granite pillars, azure lakes, and steppes spotted with grazing
+                                    guanacos, Torres del
+                                    Paine is one of the most impressive sites in the entire Southern Hemisphere.
+                                    It also happens
+                                    to
+                                    be an extremely popular destination for hikers: The ultra-ambitious can
+                                    travel the Full
+                                    Circuit—crossing the entire park—in nine days.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/ecuador.jpg)">
+                                    Galápagos
+                                    Islands, Ecuador
+                                    <br>
+                                    Do we really have to explain the allure of the Galápagos? If you can, make
+                                    your next travel
+                                    goal
+                                    to visit this of-another-time stretch of Ecuador, with dinosaur-like giant
+                                    tortoises
+                                    lumbering
+                                    through the tall grass and real-life blue-footed boobies. Pro tip: A cruise
+                                    is definitely
+                                    the
+                                    preferred way to explore the islands. Celebrity Cruise’s Xpedition only
+                                    ferries 100
+                                    passengers
+                                    and holds nightly lectures by naturalists from Galápagos National Park.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/mexico.jpg)">Cabo
+                                    San
+                                    Lucas,
+                                    Mexico
+                                    <br>
+                                    Home to 67 national parks, more than 5,000 miles of coastline, and
+                                    landscapes
+                                    ranging from
+                                    deserts to snow-capped volcanoes, Mexico is so much more than the stuff of
+                                    spring break
+                                    clichés.
+                                    Case in point: Cabo San Lucas. Venture outside of your all-inclusive resort
+                                    to experience
+                                    the
+                                    region's turquoise waters, marine life, and iconic Arch of Cabo San Lucas,
+                                    standing where
+                                    the
+                                    Gulf of California meets the Pacific Ocean.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/peru.jpg)">Machu
+                                    Picchu, Peru
+                                    <br>
+                                    While the intricate stone ruins of Machu Picchu are the work of 15th-century
+                                    Inca rulers, not
+                                    Mother Nature, it's the site's natural setting that makes it so alluring.
+                                    Perched atop the
+                                    flattened peak of a mountain, the ancient Wonder of the World benefits from
+                                    the famous
+                                    backdrop
+                                    of Huayna Picchu, lush green surfaces, and a barrier of Andean peaks that,
+                                    despite the
+                                    landmark's fame, makes you feel like you've stumbled upon a secret.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/St.Lucia.jpg)">
+                                    The
+                                    Pitons, St.
+                                    Lucia
+                                    <br>
+                                    The scenery of St. Lucia can be summed up in one jaw-dropping site: a duo of
+                                    striking spires
+                                    known as the Pitons. The two volcanic peaks—Gros Piton and Petit Piton—are
+                                    the most iconic
+                                    landmarks on the island, and visitors can enjoy them in a variety of ways. A
+                                    singular
+                                    experience
+                                    has to be actually hiking the mountains, an activity which takes the better
+                                    part of a day;
+                                    or if
+                                    you prefer to keep your feet at sea level, plop a towel down at Sugar Beach,
+                                    set
+                                    dramatically
+                                    (and conveniently) between the two Pitons.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/Venezuela.jpg)">
+                                    Angel
+                                    Falls,
+                                    Venezuela
+                                    <br>
+                                    Venezuela overflows with natural wonders, including the world's highest
+                                    waterfall—the
+                                    3,212-foot
+                                    cascades of Angel Falls, located in the UNESCO-protected Canaima National
+                                    Park. Canaima is
+                                    by
+                                    far the country's most popular attraction, and the falls stretch an
+                                    astounding 19 times
+                                    higher
+                                    than Niagara Falls. Bonus: Pixar animators used the location as inspiration
+                                    for Paradise
+                                    Falls
+                                    in Up—so you know it's good.
+                                </div>
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next swiper-button-white"></div>
+                            <div class="swiper-button-prev swiper-button-white"></div>
+                        </div>
+                        <div class="swiper-container gallery-thumbs4">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/Bolivia.jpg)">
+                                    Laguna
+                                    Colorada, Bolivia
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/bolivia1.jpg)">
+                                    Salar
+                                    de Uyuni, Bolivia
+
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/brazil.jpg)">
+                                    Fernando
+                                    de
+                                    Noronha, Brazil
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/Chile.jpg)">
+                                    Atacama
+                                    Desert,
+                                    Chile
+                                </div>
+
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/chile1.jpg)">
+                                    Torres
+                                    del Paine
+                                    National Park, Chile
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/ecuador.jpg)">
+                                    Galápagos
+                                    Islands, Ecuador
+                                </div>
+
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/mexico.jpg)">Cabo
+                                    San
+                                    Lucas,
+                                    Mexico
+                                </div>
+
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/peru.jpg)">Machu
+                                    Picchu, Peru
+                                </div>
+
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/St.Lucia.jpg)">
+                                    The
+                                    Pitons, St.
+                                    Lucia
+                                </div>
+
+                                <div class="swiper-slide" style="background-image:url(img/southAmerica/Venezuela.jpg)">
+                                    Angel
+                                    Falls,
+                                    Venezuela
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <!-- USA -->
+                        <div class="swiper-container gallery-top5" id="usa">
+                            <p>USA</p>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(img/US/Alaska.jpg)">
+                                    Denali National Park, Alaska
+                                    <br>
+                                    Despite controversies over name changes and a shrinking elevation,
+                                    Denali's
+                                    beauty is worth
+                                    braving the extreme low temperatures. Make a road trip out of your
+                                    visit,
+                                    seeing as much of
+                                    the
+                                    6 million acres of shimmering lakes and jagged mountains as you can.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/US/Arizona.jpg)">
+                                    Antelope Canyon, Arizona
+                                    <br>
+                                    Antelope Canyon is a slot canyon (and serious Instagram darling) in the
+                                    American Southwest.
+                                    Its
+                                    Navajo name translates to “the place where water runs through rocks”—an
+                                    allusion to the
+                                    canyon’s
+                                    creation through erosion. The narrow, undulating spaces between rock
+                                    formations allow for
+                                    vivid
+                                    patterns when sunlight filters through the striated stone.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/US/arizona1.jpg)">
+                                    Grand Canyon, Arizona
+                                    <br>
+                                    Grand Canyon National Park kicked off its centennial celebration this
+                                    year,
+                                    and all signs are
+                                    pointing to 2019 being an epic time to visit one of the Seven Natural
+                                    Wonders of the World.
+                                    Plan
+                                    to hike some of the park's most scenic loops—like Horseshoe Bend and the
+                                    South Rim Trail—to
+                                    get
+                                    views of the rocky badlands of the Painted Desert, Navajo Nation, and
+                                    even a
+                                    waterfall or
+                                    two.
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/US/hawaii.jpg)">Na
+                                    Pali Coast, Hawaii
+                                    <br>
+                                    Kauai has one of the world's most gorgeous coastlines, with towering
+                                    waterfalls and isolated
+                                    crescent beaches. Just be prepared to put in a little effort to soak up
+                                    its
+                                    wonders: Na Pali
+                                    can
+                                    only be seen from a helicopter, catamaran, or rather grueling hike.
+                                </div>
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next swiper-button-white"></div>
+                            <div class="swiper-button-prev swiper-button-white"></div>
+                        </div>
+                        <div class="swiper-container gallery-thumbs5">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(img/US/Alaska.jpg)">Denali
+                                    National Park, Alaska
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/US/Arizona.jpg)">Antelope
+                                    Canyon, Arizona
+
+
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/US/arizona1.jpg)">Grand
+                                    Canyon, Arizona
+                                </div>
+                                <div class="swiper-slide" style="background-image:url(img/US/hawaii.jpg)">Na Pali Coast,
+                                    Hawaii
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </section>
+
+                    <section id="news">
+                        <h1>NEWS</h1>
+                        <div class="aside">
+                            <aside id="dates">
+                                <p class="date">2019.11.05</p>
+                                <p class="date">2019.11.05</p>
+                                <p class="date">2019.11.05</p>
+                            </aside>
+                            <aside id="right-aside">
+                                <p class="style-p">New Blog Updated</p>
+                                <p class="style-p">New Blog Updated</p>
+                                <p class="style-p">New Blog Updated</p>
+                            </aside>
+                            <iframe src="https://www.youtube.com/embed/CUW5OLThRo0" frameborder="0"></iframe>
+                        </div>
+                    </section>
+                    <div class="input">
+                        <a href=""><input type="text" name="news-list" value="More News" class="input-button"></a>
+                    </div>
+
+                    <section id="comment">
+                        <h1>Leave Us Comment</h1>
+                        <div class="box">
+                            <div class="p">
+                                <p class="label">Name</p>
+                                <p class="label">Comment</p>
+                            </div>
+
+                            <div class="textarea">
+                                <input type="text" name="name" value=""><br>
+                                <textarea name="textarea" cols="30" rows="15"></textarea><br>
+                            </div>
+                        </div>
+                        <!-- </section> -->
+                        <div class="input">
+                            <a href=""><input type="text" name="news-list" value="Submit" class="input-button"></a>
+                        </div>
+                    </section>
+                </section>
+
+                <div class="menu-trigger" href="">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-                    <div class="swiper-container gallery-thumbs3">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image:url(img/Oceania/australia.jpg)">The Great
-                                Barrier
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Oceania/australia1.jpg)">Uluru,
-                                Australia
-
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Oceania/newZealand.jpg)">Lake
-                                Tekapo, New Zealand
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/Oceania/newZealand1.jpg)">Milford
-                                Sound, New
-                                Zealand
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
-                    <!-- South America -->
-                    <div class="swiper-container gallery-top4" id="south-america">
-                        <p>South America</p>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/Bolivia.jpg)">Laguna
-                                Colorada,
-                                Bolivia
-                                <br>
-                                About a three-hour drive north from Chile’s San Pedro de Atacama, this salt
-                                lake in the
-                                shadow
-                                of the Andes is known for its blood-red waters—the result of algae that
-                                thrive in extreme
-                                heat.
-                                Flamingos (and the lake) look their best from December to April: the lake is
-                                full of water,
-                                making it more reflective for photos, and the birds are breeding. Be sure to
-                                try and catch
-                                the
-                                lake at sunset, when it’s at its reddest.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/bolivia1.jpg)">Salar
-                                de Uyuni,
-                                Bolivia<br>
-                                Southwest Bolivia's Salar de Uyuni is the largest salt flat in the world,
-                                and
-                                is about as
-                                surreal as landscapes come. When dry, the flat is a sheet of blindingly
-                                white salt tiles.
-                                And
-                                during the wet season, the shallow lake mirrors the sky, creating a dreamy
-                                illusion of
-                                infinity.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/brazil.jpg)">Fernando
-                                de
-                                Noronha, Brazil
-                                <br>
-                                This archipelago off the northeast coast of Brazil consists of 21 islands,
-                                featuring some of
-                                the
-                                best beaches and most beautiful landscapes in the country. Think waterfalls,
-                                towering
-                                cliffs,
-                                stretches of white sand, and—perhaps best of all—limited tourists.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/Chile.jpg)">Atacama
-                                Desert,
-                                Chile
-                                <br>
-                                Have you ever dreamed of exploring the moon? A trip to Valle de la Luna in
-                                Chile’s Atacama
-                                Desert is a much shorter flight. Years of erosion have left behind jagged
-                                peaks, dry
-                                riverbeds,
-                                and a landscape startlingly similar to that of our favorite celestial
-                                body's.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/chile1.jpg)">Torres
-                                del Paine
-                                National Park, Chile
-                                <br>
-                                With its granite pillars, azure lakes, and steppes spotted with grazing
-                                guanacos, Torres del
-                                Paine is one of the most impressive sites in the entire Southern Hemisphere.
-                                It also happens
-                                to
-                                be an extremely popular destination for hikers: The ultra-ambitious can
-                                travel the Full
-                                Circuit—crossing the entire park—in nine days.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/ecuador.jpg)">
-                                Galápagos
-                                Islands, Ecuador
-                                <br>
-                                Do we really have to explain the allure of the Galápagos? If you can, make
-                                your next travel
-                                goal
-                                to visit this of-another-time stretch of Ecuador, with dinosaur-like giant
-                                tortoises
-                                lumbering
-                                through the tall grass and real-life blue-footed boobies. Pro tip: A cruise
-                                is definitely
-                                the
-                                preferred way to explore the islands. Celebrity Cruise’s Xpedition only
-                                ferries 100
-                                passengers
-                                and holds nightly lectures by naturalists from Galápagos National Park.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/mexico.jpg)">Cabo San
-                                Lucas,
-                                Mexico
-                                <br>
-                                Home to 67 national parks, more than 5,000 miles of coastline, and
-                                landscapes
-                                ranging from
-                                deserts to snow-capped volcanoes, Mexico is so much more than the stuff of
-                                spring break
-                                clichés.
-                                Case in point: Cabo San Lucas. Venture outside of your all-inclusive resort
-                                to experience
-                                the
-                                region's turquoise waters, marine life, and iconic Arch of Cabo San Lucas,
-                                standing where
-                                the
-                                Gulf of California meets the Pacific Ocean.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/peru.jpg)">Machu
-                                Picchu, Peru
-                                <br>
-                                While the intricate stone ruins of Machu Picchu are the work of 15th-century
-                                Inca rulers, not
-                                Mother Nature, it's the site's natural setting that makes it so alluring.
-                                Perched atop the
-                                flattened peak of a mountain, the ancient Wonder of the World benefits from
-                                the famous
-                                backdrop
-                                of Huayna Picchu, lush green surfaces, and a barrier of Andean peaks that,
-                                despite the
-                                landmark's fame, makes you feel like you've stumbled upon a secret.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/St.Lucia.jpg)">The
-                                Pitons, St.
-                                Lucia
-                                <br>
-                                The scenery of St. Lucia can be summed up in one jaw-dropping site: a duo of
-                                striking spires
-                                known as the Pitons. The two volcanic peaks—Gros Piton and Petit Piton—are
-                                the most iconic
-                                landmarks on the island, and visitors can enjoy them in a variety of ways. A
-                                singular
-                                experience
-                                has to be actually hiking the mountains, an activity which takes the better
-                                part of a day;
-                                or if
-                                you prefer to keep your feet at sea level, plop a towel down at Sugar Beach,
-                                set
-                                dramatically
-                                (and conveniently) between the two Pitons.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/Venezuela.jpg)">Angel
-                                Falls,
-                                Venezuela
-                                <br>
-                                Venezuela overflows with natural wonders, including the world's highest
-                                waterfall—the
-                                3,212-foot
-                                cascades of Angel Falls, located in the UNESCO-protected Canaima National
-                                Park. Canaima is
-                                by
-                                far the country's most popular attraction, and the falls stretch an
-                                astounding 19 times
-                                higher
-                                than Niagara Falls. Bonus: Pixar animators used the location as inspiration
-                                for Paradise
-                                Falls
-                                in Up—so you know it's good.
-                            </div>
-                        </div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next swiper-button-white"></div>
-                    <div class="swiper-button-prev swiper-button-white"></div>
-                </div>
-                    <div class="swiper-container gallery-thumbs4">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/Bolivia.jpg)">Laguna
-                                Colorada, Bolivia
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/bolivia1.jpg)">Salar
-                                de Uyuni, Bolivia
-
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/brazil.jpg)">Fernando
-                                de
-                                Noronha, Brazil
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/Chile.jpg)">Atacama
-                                Desert,
-                                Chile
-                            </div>
-
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/chile1.jpg)">Torres
-                                del Paine
-                                National Park, Chile
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/ecuador.jpg)">Galápagos
-                                Islands, Ecuador
-                            </div>
-
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/mexico.jpg)">Cabo San
-                                Lucas,
-                                Mexico
-                            </div>
-
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/peru.jpg)">Machu
-                                Picchu, Peru
-                            </div>
-
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/St.Lucia.jpg)">The
-                                Pitons, St.
-                                Lucia
-                            </div>
-
-                            <div class="swiper-slide" style="background-image:url(img/southAmerica/Venezuela.jpg)">Angel
-                                Falls,
-                                Venezuela
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
-                    <!-- USA -->
-                    <div class="swiper-container gallery-top5" id="usa">
-                        <p>USA</p>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image:url(img/US/Alaska.jpg)">
-                                Denali National Park, Alaska
-                                <br>
-                                Despite controversies over name changes and a shrinking elevation,
-                                Denali's
-                                beauty is worth
-                                braving the extreme low temperatures. Make a road trip out of your
-                                visit,
-                                seeing as much of
-                                the
-                                6 million acres of shimmering lakes and jagged mountains as you can.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/US/Arizona.jpg)">
-                                Antelope Canyon, Arizona
-                                <br>
-                                Antelope Canyon is a slot canyon (and serious Instagram darling) in the
-                                American Southwest.
-                                Its
-                                Navajo name translates to “the place where water runs through rocks”—an
-                                allusion to the
-                                canyon’s
-                                creation through erosion. The narrow, undulating spaces between rock
-                                formations allow for
-                                vivid
-                                patterns when sunlight filters through the striated stone.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/US/arizona1.jpg)">
-                                Grand Canyon, Arizona
-                                <br>
-                                Grand Canyon National Park kicked off its centennial celebration this
-                                year,
-                                and all signs are
-                                pointing to 2019 being an epic time to visit one of the Seven Natural
-                                Wonders of the World.
-                                Plan
-                                to hike some of the park's most scenic loops—like Horseshoe Bend and the
-                                South Rim Trail—to
-                                get
-                                views of the rocky badlands of the Painted Desert, Navajo Nation, and
-                                even a
-                                waterfall or
-                                two.
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/US/hawaii.jpg)">Na
-                                Pali Coast, Hawaii
-                                <br>
-                                Kauai has one of the world's most gorgeous coastlines, with towering
-                                waterfalls and isolated
-                                crescent beaches. Just be prepared to put in a little effort to soak up
-                                its
-                                wonders: Na Pali
-                                can
-                                only be seen from a helicopter, catamaran, or rather grueling hike.
-                            </div>
-                        </div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next swiper-button-white"></div>
-                    <div class="swiper-button-prev swiper-button-white"></div>
-                </div>
-                    <div class="swiper-container gallery-thumbs5">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image:url(img/US/Alaska.jpg)">Denali National Park, Alaska
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/US/Arizona.jpg)">Antelope Canyon, Arizona
-
-
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/US/arizona1.jpg)">Grand Canyon, Arizona
-                            </div>
-                            <div class="swiper-slide" style="background-image:url(img/US/hawaii.jpg)">Na Pali Coast, Hawaii
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                <nav class="scrollBtn">
+                    <p class="scroll">Top</p>
+                    <p class="scroll1">Destinations</p>
+                    <p class="scroll2">Countries</p>
+                    <p class="scroll3">News</p>
+                    <p class="scroll4">Comment</p>
+                </nav>
+                <div class="overlay"></div>
+                <footer>
+                    <p id="footer-p"><small>&copy;</small>Copyright All Rights Reserved -9 Nov 2019-</p>
+                </footer>
             </section>
+        </div>
 
-            <section id="news">
-                <h1>NEWS</h1>
-                <div class="aside">
-                    <aside id="dates">
-                        <p class="date">2019.11.05</p>
-                        <p class="date">2019.11.05</p>
-                        <p class="date">2019.11.05</p>
-                    </aside>
-                    <aside id="right-aside">
-                        <p class="style-p">New Blog Updated</p>
-                        <p class="style-p">New Blog Updated</p>
-                        <p class="style-p">New Blog Updated</p>
-                    </aside>
-                    <iframe src="https://www.youtube.com/embed/CUW5OLThRo0" frameborder="0"></iframe>
-                </div>
-            </section>
-            <div class="input">
-                <a href=""><input type="text" name="news-list" value="More News" class="input-button"></a>
-            </div>
-
-            <section id="comment">
-                <h1>Leave Us Comment</h1>
-                <div class="box">
-                    <div class="p">
-                        <p class="label">Name</p>
-                        <p class="label">Comment</p>
-                    </div>
-
-                    <div class="textarea">
-                        <input type="text" name="name" value=""><br>
-                        <textarea name="textarea" cols="30" rows="15"></textarea><br>
-                    </div>
-                </div>
-                <!-- </section> -->
-                <div class="input">
-                    <a href=""><input type="text" name="news-list" value="Submit" class="input-button"></a>
-                </div>
-            </section>
-        </section>
-
-        <div class="menu-trigger" href="">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        <nav class="scrollBtn">
-            <p class="scroll">Top</p>
-            <p class="scroll1">Destinations</p>
-            <p class="scroll2">Countries</p>
-            <p class="scroll3">News</p>
-            <p class="scroll4">Comment</p>
-        </nav>
-        <div class="overlay"></div>
-        <footer>
-            <p id="footer-p"><small>&copy;</small>Copyright All Rights Reserved -9 Nov 2019-</p>
-        </footer>
-    </section>
-</div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/three.min.js"></script>
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-    <!-- <script src="js/swiper.min.js"></script> -->
-    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r85/three.min.js"></script> -->
-    <script src="js/app.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/three.min.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <!-- <script src="js/swiper.min.js"></script> -->
+        <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r85/three.min.js"></script> -->
+        <script src="js/app.js"></script>
 </body>
+
 </html>
